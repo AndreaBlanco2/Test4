@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="search.js"></script>
+
+    <title>Search Bar</title>
+</head>
+<body>
+    <p id="searchbar"> <!--inside a p -->
+        Search this site:
+        <input type="text" id="textlookfor" autofocus> <!--This is to put the cursor there-->
+       
+        <select id="dropdown">
+            <option value="1">Bing</option>
+            <option value="2">Google</option>
+        </select>
+        <input type="button" onclick="search()" value="Go"> <!--This is the text in the button-->
+    </p>
+    <p id="college">Douglas College</p>
+</body>
+</html>

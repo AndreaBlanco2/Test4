@@ -1,0 +1,30 @@
+@charset "UTF08";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+p#searchbar {
+
+    background-color: greenyellow;
+    height: 60px;
+    width: 50vw;
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+p#college {
+    background-color: greenyellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    height: 60px;
+    width: 50vw;
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 20px;
+    
+}
